@@ -5,5 +5,5 @@ This repository was created for my personnel maintenance  for the basic ubuntu i
 To build the image run the following command:
 
 ```` 
-docker buildx build -t gabrielpcruz/dbu:20.04 ./
+docker buildx build --no-cache -t gabrielpcruz/dbu:20.04 ./
 ````
