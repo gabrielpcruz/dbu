@@ -7,3 +7,4 @@ RUN apt update -y && \
     curl \
     sudo \
     openssh-server \
+    unzip
