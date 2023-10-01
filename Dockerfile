@@ -2,9 +2,15 @@ FROM ubuntu:20.04
 
 RUN apt update -y && \
     apt install -y \
-    vim \
     bash \
     curl \
     sudo \
     openssh-server \
-    unzip
+    apt-utils \
+    software-properties-common \
+    bash-completion \
+    vim \
+    git \
+    zip \
+    unzip 
+    
