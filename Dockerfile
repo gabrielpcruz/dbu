@@ -12,5 +12,6 @@ RUN apt update -y && \
     vim \
     git \
     zip \
-    unzip 
+    unzip \
+    cron
     
